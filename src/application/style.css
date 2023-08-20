@@ -1,0 +1,193 @@
+.parent {
+	-fx-background-color: #3B3B3B;
+	-fx-font-family: Microsoft JhengHei Light;
+	-fx-font-size: 20px;
+}
+
+.button {
+	-fx-background-color: transparent;
+	-fx-background-radius: 5px;
+	-fx-border-color: #CF6E00;
+	-fx-border-radius: 5px;
+	-fx-border-width: 1px;
+	-fx-text-fill: #ABABAB; 
+}
+
+.button:hover {
+	-fx-background-color: #CF6E00;
+	-fx-text-fill: #3B3B3B;
+}
+
+.button:pressed {
+	-fx-background-color: #FFB867;
+	-fx-text-fill: #FFFFFF;
+}
+
+.negative-button {
+	-fx-background-color: transparent;
+	-fx-background-radius: 5px;
+	-fx-border-color: #3B3B3B;
+	-fx-border-radius: 5px;
+	-fx-border-width: 1px;
+	-fx-text-fill: #FFFFFF;
+}
+
+.negative-button:hover {
+	-fx-background-color: #ff9824;
+	-fx-text-fill: #3B3B3B;
+	-fx-border-color: #ffb567;
+}
+
+.negative-button:pressed {
+	-fx-background-color: #3B3B3B;
+	-fx-text-fill: #FFFFFF;
+}
+
+.lineButton {
+	-fx-background-color: transparent;
+	-fx-border-color: #DEDEE4;
+	-fx-border-radius: 0px;
+	-fx-border-width: 0px 1px 1px 1px;
+	-fx-text-fill: #CF6E00; 
+}
+
+.lineButton:hover {
+	-fx-background-color: #808080;
+	-fx-text-fill: #FFFFFF;
+}
+
+.lineButton:pressed {
+	-fx-background-color: #CF6E00;
+	-fx-text-fill: #3B3B3B;
+}
+
+.text-field {
+	-fx-background-color: transparent;
+	-fx-border-color: #DEDEE4;
+	-fx-border-width: 0px 0px 1px 0px;
+	-fx-text-fill:  #CF6E00;
+	-fx-highlight-fill: #CF6E00;
+	-fx-highlight-text-fill: #ABABAB;
+}
+
+.negative-text-field {
+	-fx-background-color: transparent;
+	-fx-border-color: #3B3B3B;
+	-fx-border-width: 0px 0px 1px 0px;
+	-fx-text-fill:  #3B3B3B;
+	-fx-highlight-fill: #3B3B3B;
+	-fx-highlight-text-fill: #CF6E00;
+	-fx-prompt-text-fill: #ffffff;
+}
+
+.chart {
+	-fx-background-color: transparent;
+	-fx-legend-visible: false;
+	-fx-create-symbols: false;
+	-fx-stroke: #CF6E00;
+}
+
+.chart-vertical-grid-lines {
+	-fx-stroke-width: 0px; 
+}
+
+.chart-horizontal-grid-lines {
+	-fx-stroke-width: 1px;
+	-fx-stroke: #515151;
+}
+
+.chart-plot-background {
+	-fx-background-color: transparent;
+	-fx-stroke: #CF6E00; 
+}
+
+.chart-title {
+	-fx-text-fill:  #CF6E00;
+}
+
+.chart-legend {
+    -fx-background-color: lightgray;
+}
+
+.tab {
+	-fx-background-color: #3B3B3B;
+	-fx-pref-width: 300;
+	-fx-pref-height: 50;
+}
+
+.tab-header-background {
+	-fx-background-color: #3B3B3B;
+}
+
+.tab-selected-line {
+	-fx-background-color: #CF6E00;
+}
+
+.jfx-rippler {
+	-jfx-rippler-fill: #CF6E00;
+}
+
+.table-view {
+    -fx-base: #3B3B3B;
+    -fx-control-inner-background: #3B3B3B;
+    -fx-background-color: #3B3B3B;    
+}
+
+.table-cell {
+	-fx-alignment: center;	
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell:hover {
+    -fx-background-color: #3B3B3B;
+    -fx-text-background-color: #CF6E00;
+}
+.table-row-cell:odd{
+    -fx-background-color: #353535;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: #3B3B3B;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+	-fx-text-background-color: #3B3B3B;
+	-fx-background-color: #CF6E00;
+}
+
+.pane {
+	-fx-background-color: #CF6E00;
+}
+
+.label {
+	-fx-font-family: Microsoft JhengHei Light;
+	-fx-font-size: 20px;
+}
+
+.label {
+	-fx-font-size: 20px;
+}
+
+.combo-box .list-cell {
+	-fx-background: #3B3B3B;
+}
+
+.combo-box .list-cell:hover {
+	-fx-background-color: #ffb567;
+	-fx-text-fill: #3B3B3B;
+}
+
+.combo-box .list-cell:selected{
+	-fx-background-color: #ff9824;	
+}
+
+.combo-box .list-view {
+	-fx-background-color: transparent, transparent;
+}
+

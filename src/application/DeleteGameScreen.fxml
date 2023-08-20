@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" styleClass="parent" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DeleteGameScreenController">
+   <children>
+      <TableView fx:id="gamesTable" layoutX="14.0" layoutY="14.0" prefHeight="573.0" prefWidth="693.0">
+      	<columns>
+      	</columns>
+      </TableView>
+      <Button fx:id="deleteGameBtn" layoutX="746.0" layoutY="476.0" mnemonicParsing="false" onAction="#deleteBtnOnAction" text="Delete Selected Game" />
+      <Label fx:id="selectedMatchLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="746.0" layoutY="446.0" prefHeight="30.0" prefWidth="225.0" textFill="#ababab" />
+      <Button fx:id="confirmBtn" layoutX="808.0" layoutY="531.0" mnemonicParsing="false" onAction="#confirmChanges" text="Confirm" />
+   </children>
+</AnchorPane>

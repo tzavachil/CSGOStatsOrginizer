@@ -1,0 +1,2 @@
+1. Form Validation addGameBtn set disable if text fields are empty
+2. On first time setup window do the same with the continue button

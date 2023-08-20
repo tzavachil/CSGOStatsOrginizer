@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPanel" prefHeight="450.0" prefWidth="750.0" styleClass="parent" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Label layoutX="194.0" layoutY="28.0" text="First Time Setup" textFill="#ababab">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="50.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="50.0" layoutY="136.0" prefHeight="45.0" prefWidth="650.0" promptText="Steam Username" styleClass="text-field">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="profileLinkField" layoutX="50.0" layoutY="205.0" prefHeight="45.0" prefWidth="650.0" promptText="Steam Profile Link" styleClass="text-field">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="browseBtn" layoutX="540.0" layoutY="282.0" mnemonicParsing="false" onAction="#browseBtnPressed" prefHeight="46.0" prefWidth="162.0" styleClass="lineButton" text="Browse..." />
+      <Button fx:id="continueBtn" layoutX="194.0" layoutY="366.0" mnemonicParsing="false" onAction="#continueBtnPressed" prefHeight="46.0" prefWidth="362.0" text="Continue" />
+      <ImageView fx:id="usernameTick" fitHeight="107.0" fitWidth="30.0" layoutX="670.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../images/icons8_ok_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profileLinkTick" fitHeight="107.0" fitWidth="30.0" layoutX="670.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../images/icons8_ok_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="htmlFIleTick" fitHeight="107.0" fitWidth="30.0" layoutX="501.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../images/icons8_ok_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="usernameX" fitHeight="150.0" fitWidth="30.0" layoutX="670.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../images/icons8_cancel_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profileLinkX" fitHeight="150.0" fitWidth="30.0" layoutX="670.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../images/icons8_cancel_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="htmlFileX" fitHeight="150.0" fitWidth="30.0" layoutX="501.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../images/icons8_cancel_96px.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="fileNameField" layoutX="48.0" layoutY="283.0" prefHeight="45.0" prefWidth="492.0" promptText="Select your CS:GO history .html file" styleClass="text-field">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
